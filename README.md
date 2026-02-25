@@ -32,7 +32,7 @@
       </div>
     </section>
 
-    <section id="projects" class="section">
+  <section id="projects" class="section">
       <h2>Projects</h2>
       <div class="cards">
         <article class="card">
@@ -50,14 +50,14 @@
       </div>
     </section>
 
-    <section id="updates" class="section">
+   <section id="updates" class="section">
       <h2>Updates</h2>
       <ul class="updates">
         <li><span class="tag">Day 1</span> Website repo launched + structure set.</li>
       </ul>
     </section>
 
-    <section id="contact" class="section">
+  <section id="contact" class="section">
       <h2>Contact</h2>
       <p>Email: <a href="mailto:hello@flyphillyfly.com">hello@flyphillyfly.com</a> (placeholder)</p>
     </section>
