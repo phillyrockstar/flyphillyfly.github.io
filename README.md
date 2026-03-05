@@ -28,7 +28,8 @@
       </p>
       <div class="hero-actions">
         <a class="btn" href="#projects">See Projects</a>
-        <a class="btn secondary" href="#contact">Contact</a>
+        
+<a class="btn secondary" href="#contact">Contact</a>
       </div>
     </section>
 
