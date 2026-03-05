@@ -1,4 +1,4 @@
-# flyphillyfly.github.io
+# zeropoint.github.io
 <!doctype html>
 <html lang="en">
 <head>
@@ -10,7 +10,7 @@
 <body>
   <header class="site-header">
     <nav class="nav">
-      <div class="brand">Fly Philly Fly</div>
+      <div class="brand">ZEROPOINT</div>
       <ul class="nav-links">
         <li><a href="#home">Home</a></li>
         <li><a href="#projects">Projects</a></li>
@@ -64,7 +64,7 @@
   </main>
   <footer class="site-footer">
     <div class="container">
-      <small>© <span id="year"></span> Fly Philly Fly. All rights reserved.</small>
+      <small>© <span id="year"></span> ZEROPOINT. All rights reserved.</small>
     </div>
   </footer>
 
@@ -72,32 +72,24 @@
 </body>
 </html>
 :root { --max: 980px; }
-
 * { box-sizing: border-box; }
 body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; line-height: 1.5; }
 a { text-decoration: none; }
-
 .container { max-width: var(--max); margin: 0 auto; padding: 24px; }
-
 .site-header { position: sticky; top: 0; background: white; border-bottom: 1px solid #eee; }
 .nav { max-width: var(--max); margin: 0 auto; padding: 14px 24px; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
 .brand { font-weight: 800; }
 .nav-links { list-style: none; display: flex; gap: 14px; padding: 0; margin: 0; }
 .nav-links a { color: #111; }
-
 .hero { padding: 48px 0 28px; }
 .subtitle { max-width: 60ch; }
-
 .hero-actions { display: flex; gap: 10px; margin-top: 14px; flex-wrap: wrap; }
 .btn { display: inline-block; padding: 10px 14px; border: 1px solid #111; border-radius: 10px; color: #111; }
 .btn.secondary { opacity: .75; }
-
 .section { padding: 28px 0; border-top: 1px solid #f1f1f1; }
 .cards { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
 .card { border: 1px solid #eee; border-radius: 14px; padding: 14px; }
-
 .updates { padding-left: 18px; }
 .tag { border: 1px solid #ddd; padding: 2px 8px; border-radius: 999px; margin-right: 8px; }
-
 .site-footer { border-top: 1px solid #eee; padding: 18px 0; }
 document.getElementById("year").textContent = new Date().getFullYear();
