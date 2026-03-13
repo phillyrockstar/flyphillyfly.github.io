@@ -94,10 +94,10 @@ including air transport technology safer exploration through the air." />
               zeroth- a corresponding zero placeholder to the next 
               nyx - a greek mythology of "night" the beginning of creation itself 
               
-              <article class=" card"> 
-                <h3> "what are we about"? </h3>
-                <p> 
-                  A long-term vision  project to exploring personal mobility, safety-first design,
+            <article class=" card"> 
+              <h3> "what are we about"? </h3>
+              <p> 
+              A long-term vision  project to exploring personal mobility, safety-first design,
               and technology that helps people rise and think differently. I believe that we are here to create and 
               experience. "ZEROTHNYX IS THE FUTURE OF TRUTH OF CREATION "
             </p>
