@@ -40,6 +40,7 @@
     </section>
 
     <section id="vision" class="section">
+      
       <div class="container">
         <h2>The Vision</h2>
         <p>
