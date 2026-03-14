@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+#<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -102,7 +102,7 @@ including air transport technology safer exploration through the air." />
       imagination, discipline, and future creation.
     </p>
 
-    <div class="cards">
+  <div class="cards">
       <article class="card">
         <h3>What are we about?</h3>
         <p>
