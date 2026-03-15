@@ -1,4 +1,20 @@
 :root {
+
+  /* Colors */
+
+  --bg-main: #0a0a0a;
+  --bg-section: #111111;
+  --accent: #00ffd0;
+  --text-main: #f5f5f5;
+  --text-muted: #9ca3af;
+
+  /* Layout */
+
+  --max-width: 1100px;
+  --section-padding: 80px;
+
+}
+:root {
   --max: 1120px;
   --bg: #070b16;
   --text: #f3f6ff;
