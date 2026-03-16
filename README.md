@@ -133,3 +133,10 @@ including air transport technology safer exploration through the air." />
         <p>Email: contact@zerothnyxofficial.com <span class="muted">(coming soon)</span></p>
       </div>
     </section>
+    
+  <footer> 
+     @ < span id="year"></span> Zerothnyx 
+      </footer>
+
+  </body>
+  </html>
