@@ -49,41 +49,41 @@ a {
   margin: 0 auto;
 }
 
-.site-header {
+..site-header {
   position: sticky;
   top: 0;
-  z-index: 50;
-  backdrop-filter: blur(14px);
-  background: rgba(10, 10, 18, 0.55);
-  border-bottom: 1px solid var(--line);
   z-index: 1000;
+  backdrop-filter: blur(12px);
+  background: rgba(10, 10, 18, 0.55);
+  border-bottom: 1px solid rgba(166, 76, 255, 0.18);
+  box-shadow: 0 0 18px rgba(166, 76, 255, 0.08);
 }
 
 .nav {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 14px 24px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 16px 0;
-  gap: 18px;
+  gap: 20px;
 }
-
-.brand {
+  brand {
   font-weight: 800;
   letter-spacing: 0.08em;
 }
 
-.nav-links {
-  list-style: none;
-  display: flex;
-  gap: 16px;
-  padding: 0;
-  margin: 0;
-  flex-wrap: wrap;
-}
-
 .nav-links a {
   color: var(--text);
+  text-decoration: none;
   opacity: 0.88;
+  transition: color 0.25s ease, text-shadow 0.25s ease, opacity 0.25s ease;
+}
+
+.nav-links a:hover {
+  color: var(--accent);
+  opacity: 1;
+  text-shadow: 0 0 10px rgba(166, 76, 255, 0.55);
 }
 
 .hero {
