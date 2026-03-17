@@ -48,7 +48,7 @@ a {
   width: min(100% - 32px, var(--max));
   margin: 0 auto;
 }
-
+/* introduction page */
 ..site-header {
   position: sticky;
   top: 0;
@@ -81,19 +81,50 @@ a {
   z-index: 2;
 }
 
+.brand-smoke {
+  position: absolute;
+  left: 55%;
+  top: 50%;
+  width: 180px;
+  height: 70px;
+  transform: translateY(-50%);
+  pointer-events: none;
+  z-index: 1;
+  background:
+    radial-gradient(circle at 20% 50%, rgba(166, 76, 255, 0.28), transparent 40%),
+    radial-gradient(circle at 45% 40%, rgba(95, 30, 180, 0.22), transparent 42%),
+    radial-gradient(circle at 70% 60%, rgba(186, 120, 255, 0.16), transparent 45%);
+  filter: blur(14px);
+  animation: uvSmokeDrift 6s ease-in-out infinite alternate;
+}
+
+@keyframes uvSmokeDrift {
+  0% {
+    transform: translateY(-50%) translateX(0);
+    opacity: 0.55;
+  }
+  50% {
+    transform: translateY(-50%) translateX(12px);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(-50%) translateX(24px);
+    opacity: 0.45;
+  }
+
 .nav-links a {
-  color: var(--text);
+  color: #f3f6ff;
   text-decoration: none;
   opacity: 0.88;
   transition: color 0.25s ease, text-shadow 0.25s ease, opacity 0.25s ease;
 }
 
 .nav-links a:hover {
-  color: var(--accent);
+  color: #a64cff;
   opacity: 1;
   text-shadow: 0 0 10px rgba(166, 76, 255, 0.55);
 }
-
+/* starting page */
 .hero {
   min-height: 70vh;
   display: grid;
@@ -158,7 +189,7 @@ h2 {
   font-size: clamp(1.8rem, 4vw, 3rem);
   margin-top: 0;
 }
-
+/*cards layout */
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -220,7 +251,7 @@ letter-top: 0.5px;
   --uv: #a64cff;
 }
 
-/* Control buttons */
+/* Control buttons and portals */
 .portal-controls {
   display: flex;
   gap: 16px;
@@ -288,4 +319,29 @@ letter-top: 0.5px;
 
 .portal-panel.active .panel-inner {
   transform: translateY(0) scale(1);
+}.
+
+/* MOBILE ADJUSTMENTS */
+@media (max-width: 768px) {
+
+  .nav {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .brand {
+    font-size: 2rem;
+  }
+
+  .nav-links {
+    gap: 14px;
+  }
+
+  .brand-smoke {
+    width: 120px;
+    height: 50px;
+    left: 60%;
+  }
+
 }
