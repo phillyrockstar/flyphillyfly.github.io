@@ -1,3 +1,20 @@
+body {
+  background: #05070f;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+a {
+  color: #a64cff;
+}
+
+.nav-links,
+.nav-links li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
 :root {
 
   /* Colors */
