@@ -122,20 +122,6 @@ a:hover::after {
   animation: uvSmokeDrift 6s ease-in-out infinite alternate;
 }
 
-@keyframes uvSmokeDrift {
-  0% {
-    transform: translateY(-50%) translateX(0);
-    opacity: 0.55;
-  }
-  50% {
-    transform: translateY(-50%) translateX(12px);
-    opacity: 0.8;
-  }
-  100% {
-    transform: translateY(-50%) translateX(24px);
-    opacity: 0.45;
-  }
-
 .nav-links {
   display: flex;
   gap: 18px;
@@ -348,33 +334,3 @@ letter-top: 0.5px;
   transform: translateY(0) scale(1);
 }.
 
-/* MOBILE ADJUSTMENTS */
-@media 
-( width: 100%) 
-(max-width: 1100px) {
-
-  .nav {
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 16px;
-  }
- .nav-links {
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-.btn {
-  display: inline-block;
-  padding: 12px 24px;
-  border-radius: 8px;
-  background: linear-gradient(135deg, #00ffd0, #7cc7ff);
-  color: #000;
-  font-weight: 600;
-  text-decoration: none;
-  transition: all 0.3s ease;
-}
-
-/* Hover */
-.btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 0 15px #00ffd0, 0 0 30px #00ffd0;
-}
