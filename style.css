@@ -54,7 +54,7 @@ a {
   margin: 0 auto;
 }
 /* introduction page */
-..site-header {
+  .site-header {
   position: sticky;
   top: 0;
   z-index: 1000;
